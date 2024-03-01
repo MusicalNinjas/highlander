@@ -4,5 +4,12 @@ nav:
   - Welcome: 'index.md'
   - Libraries: '*include ./lib/*/mkdocs.yml'
 
+theme:
+  name: "material"
+  features:
+  - navigation.expand
+  - navigation.path
+  - navigation.indexes
+
 plugins:
   - monorepo

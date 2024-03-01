@@ -1,0 +1,4 @@
+[submodule "lib/recurtools"]
+	path = lib/recurtools
+	url = https://github.com/MusicalNinjaDad/recurtools
+	branch = main

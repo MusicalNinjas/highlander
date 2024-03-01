@@ -1,1 +1,8 @@
-site_name: My Docs
+site_name: MusicalNinjas
+
+nav:
+  - Welcome: 'index.md'
+  - Libraries: '*include ./lib/*/mkdocs.yml'
+
+plugins:
+  - monorepo
